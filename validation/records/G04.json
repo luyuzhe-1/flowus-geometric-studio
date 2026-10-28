@@ -1,0 +1,63 @@
+{
+  "case_id": "G04",
+  "title": "回折连接带",
+  "skill_version": "0.1.5",
+  "rule_revision": "r2",
+  "phase": "original_reusable_material_fresh",
+  "status": "reviewed_material_candidate",
+  "prompt_file": "validation/prompts/G04.txt",
+  "tool": "image_gen.imagegen",
+  "references_reviewed": [
+    "R03",
+    "R12"
+  ],
+  "explicit_image_inputs": [],
+  "reference_delivery": "文字首生；所列第三方参考只由助手观看，未显式传入。",
+  "requested_size": [
+    1024,
+    1024
+  ],
+  "requested_transparency": true,
+  "semantic_affordances": "传递、连接、转向；需要组合时另行确定端点。",
+  "origin": "本项目原创生成素材；非第三方裁切或原站原图。",
+  "self_evaluation": {
+    "status": "trial_usable_with_reservations",
+    "silhouette": "recognizable",
+    "no_faces_or_limbs": true,
+    "flat_fill": "partial",
+    "evidence": "S形连接带可辨，两端可作为连接位置；仍有轻微色值变化，端点需在成图检查。",
+    "user_aesthetic": "pending"
+  },
+  "user_evaluation": "pending",
+  "frozen_rule_record": "validation/generation-environment.json",
+  "project_output": "assets/geometry-kit/G04.png",
+  "file_check": {
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "has_alpha": true,
+    "fully_transparent_fraction": 0.9000124641021141,
+    "partly_transparent_fraction": 0.09914302938730035,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "14939fe9138315d812156ed8f9897fc5aa5181af4a083f8e0454a8f751f92e6b",
+    "requested_exact_size_met": false,
+    "requested_ratio_met": true
+  },
+  "actual_tool_arguments": {
+    "prompt": "Use case: stylized-concept\nAsset: one original reusable non-character geometric illustration motif, not a sprite sheet.\nDrawing construction: clean two-dimensional digital line-and-fill. Use a continuous medium electric-blue contour (#1844F5), a small bright turquoise / sky-blue / pink palette and white only where specified. Every bounded plane has one even solid color; keep volume implicit in the overlap or fold edges. Keep detail sparse and the silhouette distinct. These are uninhabited shapes and lines, with no human features.\nMotif: One narrow turquoise ribbon-like connector traveling sideways through two soft opposing bends, with an electric-blue outer contour. Its ends are open clean cuts, positioned at the left and right. Keep uniform strip width, a crisp unshaded fill and a readable S-like path. No separate arrowhead, knot or extra object.\nDelivery: a single centered isolated motif, requested 1024×1024 PNG with genuinely transparent alpha around it, filling about the middle two-thirds of the canvas while preserving clean outer padding. Draw no label, text, border, contact sheet, scene, platform, shadow, surface gradient or glow. This one motif will later be combined with other independently saved motifs.",
+    "transparent_background": true
+  },
+  "prompt_sha256": "fe909529d9da6fd1e1dd4b2564abbff56d509710d8b541feb743a84cc598b7de",
+  "tool_controls_not_exposed": [
+    "model",
+    "seed",
+    "quality",
+    "dedicated_size_parameter"
+  ],
+  "original_output_saved_locally": true,
+  "record_normalization": "原始工具提示词不变；本机绝对输入路径仅替换为仓库内对应文件路径，避免发布机器路径。"
+}

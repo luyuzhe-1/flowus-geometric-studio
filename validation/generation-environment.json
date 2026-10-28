@@ -1,0 +1,44 @@
+{
+  "skill_version": "0.1.5",
+  "generation_variant": "local_research_r1_and_r2",
+  "publication_variant": "source_linked_open_source",
+  "local_r1_rule_hashes": {
+    "SKILL.md": "074296a75e053032bac9fdd4ef848c29c573c50e0a1e182bcbdc07ceb172b09c",
+    "agents/openai.yaml": "eb30b8396b8ec9022f117e6941eb1c3be8d6023300f9de085c3e3f9f13a62604",
+    "references/content-to-image.md": "4fe2f16d555f341a350060d157789803614797696d73a1417c0e251bce54e34d",
+    "references/reference-index.json": "1c9cb5e5d32d28eb96b0b783f1529b1e041c2c320525bd2627e59f52eaee01ac",
+    "references/scenes-and-relations.md": "c36c90fe8dd80ab09bdec891736b4b89f183dd1042ac64279af5c2cdf45d6e9c",
+    "references/selection-snapshot.json": "ab4c726cfc89d3ddf084a8f13f9298cc9ebaea0caf6c12cc8bcfdb2b37c27be6",
+    "references/style-and-modes.md": "c6463f10114d6f8e561bf3b9337d6fe4e6fbbe1323dae63d8e9f3f14c6684cba",
+    "references/validation.md": "fc26bff9a54a1037e30f804e717d906a149c58b451b842889d3d5cacef549028"
+  },
+  "local_r2_rule_hashes": {
+    "SKILL.md": "28274e1c5faba08d70a4b4b2accae39fdd4c83a92976f2283754649e7f6a4746",
+    "agents/openai.yaml": "eb30b8396b8ec9022f117e6941eb1c3be8d6023300f9de085c3e3f9f13a62604",
+    "references/content-to-image.md": "4fe2f16d555f341a350060d157789803614797696d73a1417c0e251bce54e34d",
+    "references/material-kit.md": "84519f468fdc9a768274841a8ba310f37711289182118519071594ccaeb6d5ff",
+    "references/reference-index.json": "811c1eb6a2e5c83f2d5143dbdaff201b1941cffdb8a9907a31207c601167400c",
+    "references/scenes-and-relations.md": "9b380425b03d25e950180cfba4daae3bd69dd23872f2d41dce54e76c185d7715",
+    "references/selection-snapshot.json": "ab4c726cfc89d3ddf084a8f13f9298cc9ebaea0caf6c12cc8bcfdb2b37c27be6",
+    "references/style-and-modes.md": "c6463f10114d6f8e561bf3b9337d6fe4e6fbbe1323dae63d8e9f3f14c6684cba",
+    "references/validation.md": "fc26bff9a54a1037e30f804e717d906a149c58b451b842889d3d5cacef549028"
+  },
+  "public_variant_changes": "第三方图片改为原始URL，机器路径改为对应仓库路径；绘画与语义选择规则保留。公开发行版未另做新环境端到端出图测试。",
+  "actual_generator": "image_gen.imagegen",
+  "fresh": "V14/V15/G01–G06 only prompt + transparency; no explicit image inputs",
+  "compositing": "E06 received four original materials; E07 received E06 + G01",
+  "controls_not_exposed": [
+    "model",
+    "seed",
+    "quality",
+    "dedicated_size_parameter"
+  ],
+  "original_format": "A/B and E06/E07 1536×1024; six materials 1254×1254, requested 1024×1024 not met",
+  "counts": {
+    "fresh": 8,
+    "composite": 1,
+    "targeted_edit": 1,
+    "returned_outputs": 10
+  },
+  "independent_holdout": false
+}

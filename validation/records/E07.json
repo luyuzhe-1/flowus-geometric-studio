@@ -1,0 +1,82 @@
+{
+  "case_id": "E07",
+  "title": "先试一小步·素材组合路线修正",
+  "skill_version": "0.1.5",
+  "rule_revision": "r2",
+  "phase": "targeted_existing_image_edit",
+  "status": "reviewed_awaiting_user_judgment",
+  "prompt_file": "validation/prompts/E07.txt",
+  "original_prose": "团队准备推出一项新功能，没有一次性向所有人开放。他们先请少量用户试用，根据收到的建议做调整，再逐步扩大范围。比起一开始就铺得很大，他们更在意每一步都能及时改进。",
+  "tool": "image_gen.imagegen",
+  "explicit_image_inputs": [
+    "validation/images/edits/E06.png",
+    "assets/geometry-kit/G01.png"
+  ],
+  "input_roles": [
+    "edit_target_E06",
+    "original_material_G01_loop_arrow_ownership_reference"
+  ],
+  "input_sha256": {
+    "E06.png": "79a26e8718f784550be9e0388c5d17bb79ebc7353ae24e33c14f67f095ccf67c",
+    "G01.png": "aac329513592e7d13cfca0700a7374a1fc7ab1da597d7bcf952f18fb9c946a56"
+  },
+  "references_reviewed": [],
+  "reference_delivery": "实传E06组合目标及G01原创回环素材；未传第三方图片。",
+  "requested_size": [
+    1536,
+    1024
+  ],
+  "requested_transparency": true,
+  "self_evaluation": {
+    "overall": "partial_improved_after_correction",
+    "semantic": "mostly_matches_with_reservations",
+    "style": "partial",
+    "material_identity": "recognizable_adapted",
+    "editing_invariants": "visually_mostly_preserved_not_pixel_exact",
+    "improvement": "外扩连接已从小试验片指向大扇片；回环独立恢复箭头，4类素材身份可辨，较旧B的方块重复更丰富。",
+    "regression": "比旧B增加了图形含义解释负担；“功能试用”仍依赖段落，不能仅凭形体种类推定更合适。",
+    "unresolved": "回环围绕试验片而未直接进入片面边缘，具体收反馈含义仍偏抽象；色面轻微明暗和线重差异仍在。",
+    "one_sentence": "形体单一的问题得到缓解，外扩方向修正成功；反馈语义仍是抽象隐喻，整体有保留。",
+    "boundary": "这是一次素材组合及一次路线编辑的结果，不证明文字首生或跨主题素材组合稳定。"
+  },
+  "user_evaluation": "direction_accepted_stage_stop",
+  "frozen_rule_record": "validation/generation-environment.json",
+  "targeted_edit_limit": "本轮组合路线只修正一次，仍失败则保留并请用户判断。",
+  "invariants": [
+    "折页和扇片布局",
+    "原尺寸与透明背景",
+    "主色和主体尺度"
+  ],
+  "allowed_changes": [
+    "返回箭头归属",
+    "外扩方向箭头",
+    "必要的局部路径端点"
+  ],
+  "project_output": "validation/images/edits/E07.png",
+  "file_check": {
+    "format": "PNG",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "has_alpha": true,
+    "fully_transparent_fraction": 0.7172298431396484,
+    "partly_transparent_fraction": 0.28277015686035156,
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "sha256": "90af96b7d533b91381554651ad164a720f846728097d4940e30a660aa52787e8",
+    "requested_exact_size_met": true
+  },
+  "actual_tool_arguments": {
+    "prompt": "Use case: precise-object-edit\nInput 1 is the composition edit target E06. Input 2 is the original return-loop motif G01, used only to clarify which path owns the return arrow.\nCorrect the route ownership and direction in input 1. Preserve the sheet, three fan leaves, circular fan pivot, relative sizes, positions, colors, outer margins and transparent background. Keep the turquoise S-shaped connecting strip in its current position.\nThere must be two distinct paths with separate meanings:\n1. Local feedback around the SMALL SHEET at the left: restore a clear arrowhead on the OUTER circular return-loop path, like the arrow belonging to the loop in input 2. Keep the pink tile on the lower part of that loop. The loop arrow belongs to this local loop, never to the turquoise connecting strip.\n2. Outward expansion from LEFT SHEET to RIGHT FAN: remove the existing LEFT-POINTING arrowhead at the strip's sheet-side end. That end becomes a plain clean join near the sheet. Add one modest RIGHT-POINTING arrowhead on the outgoing strip near the fan pivot, clearly indicating travel from the small trial toward the large fan. Do not place an arrow pointing back from fan to sheet.\nSeparate the loop arrow and outgoing strip arrow so their paths can be read independently. Adjust only the short endpoint areas necessary for these corrections; do not redesign or move the main shapes. Keep blue contours and flat colored planes. No added labels, text, characters, cubes or scenery. Return the same 1536×1024 transparent PNG.",
+    "referenced_image_paths": [
+      "validation/images/edits/E06.png",
+      "assets/geometry-kit/G01.png"
+    ],
+    "transparent_background": true
+  },
+  "self_evaluated_at": "2026-10-28T21:28:40.181393+08:00",
+  "original_output_saved_locally": true,
+  "record_normalization": "原始工具提示词不变；本机绝对输入路径仅替换为仓库内对应文件路径，避免发布机器路径。"
+}

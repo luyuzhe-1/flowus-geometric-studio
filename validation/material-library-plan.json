@@ -1,0 +1,68 @@
+{
+  "planned_before_generation": true,
+  "reason": "用户认为所有无人物文本都用方块过于单一，要求原站语汇基础上扩充小素材库再组合。",
+  "items": [
+    {
+      "id": "G01",
+      "title": "开放回环",
+      "construction": "One loose almost-circular electric-blue return loop, open at the upper right with one short arrowhead. Place one small flat pink rectangular tile on the lower arc. Use a slightly irregular but continuous curve, a calm open center and a clear return direction. The whole loop is a reusable connecting motif.",
+      "reference_ids": [
+        "R12",
+        "R03"
+      ],
+      "semantic_affordances": "回返、反馈、重复检视；是否传达取决于组合落点。"
+    },
+    {
+      "id": "G02",
+      "title": "折页信息片",
+      "construction": "One upright turquoise information sheet with a diagonally folded upper-right corner. The folded triangular corner is pink and the inner reverse face is white. Use a blue outline and one essential fold line. The plain central plane is broad and empty, without text or UI lines. Slightly tilt the whole sheet to keep its silhouette lively.",
+      "reference_ids": [
+        "R05"
+      ],
+      "semantic_affordances": "信息片、试验对象、待处理内容；不固定为文件图标。"
+    },
+    {
+      "id": "G03",
+      "title": "展开扇片",
+      "construction": "A compact fan of three broad rounded sector-shaped sheets opening around a small common pivot. Give the three slightly offset leaves turquoise, sky-blue and pink flat fills with a blue contour. Keep three distinct outer arcs and clear overlap boundaries; one simple pivot circle is enough. It is an abstract expanding arrangement, not a flower or hand fan product.",
+      "reference_ids": [
+        "R12",
+        "R10"
+      ],
+      "semantic_affordances": "展开、范围扩大、选择；新扇片构造为原创扩充，非官网原有图。"
+    },
+    {
+      "id": "G04",
+      "title": "回折连接带",
+      "construction": "One narrow turquoise ribbon-like connector traveling sideways through two soft opposing bends, with an electric-blue outer contour. Its ends are open clean cuts, positioned at the left and right. Keep uniform strip width, a crisp unshaded fill and a readable S-like path. No separate arrowhead, knot or extra object.",
+      "reference_ids": [
+        "R03",
+        "R12"
+      ],
+      "semantic_affordances": "传递、连接、转向；需要组合时另行确定端点。"
+    },
+    {
+      "id": "G05",
+      "title": "留白云形容器",
+      "construction": "One hollow cloud-shaped enclosure built from three unequal rounded lobes and a gently curved lower edge. Use a turquoise boundary band enclosed by a continuous electric-blue contour; leave the broad inner area genuinely transparent and empty. Keep it asymmetric and diagrammatic. This is a reusable holding space, without a server, device, face or small symbols.",
+      "reference_ids": [
+        "R03"
+      ],
+      "semantic_affordances": "容纳、共享空间或开放边界；内区透明，需按内容放主体。"
+    },
+    {
+      "id": "G06",
+      "title": "异形接点",
+      "construction": "One small sky-blue rounded triangle on the left and one pink circular disk on the right, separated by breathing space and joined by one loose electric-blue curved line. Let the line visibly touch each shape at one boundary point. Use plain geometric fills, unequal sizes and slightly asymmetric placement. No eyes, mouths or limbs.",
+      "reference_ids": [
+        "R12",
+        "R04"
+      ],
+      "semantic_affordances": "不同事物的联系、对话或匹配；两个形体不可自动视为人物。"
+    }
+  ],
+  "fresh_assets": 6,
+  "composite_case_to_revisit": "V15 / 先试一小步",
+  "composite_plan": "保留原自然语言短文，选少量实际素材表现小试验、回返调整与扩大范围；实际选用及路径在组合前记录。",
+  "source_scope": "R12/R05/R03等给出曲线、异形、折页和容器语法；G01–G06的新组合是原创推导。"
+}

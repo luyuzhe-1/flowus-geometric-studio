@@ -1,0 +1,7 @@
+Use case: precise-object-edit
+Input 1 is the composition edit target E06. Input 2 is the original return-loop motif G01, used only to clarify which path owns the return arrow.
+Correct the route ownership and direction in input 1. Preserve the sheet, three fan leaves, circular fan pivot, relative sizes, positions, colors, outer margins and transparent background. Keep the turquoise S-shaped connecting strip in its current position.
+There must be two distinct paths with separate meanings:
+1. Local feedback around the SMALL SHEET at the left: restore a clear arrowhead on the OUTER circular return-loop path, like the arrow belonging to the loop in input 2. Keep the pink tile on the lower part of that loop. The loop arrow belongs to this local loop, never to the turquoise connecting strip.
+2. Outward expansion from LEFT SHEET to RIGHT FAN: remove the existing LEFT-POINTING arrowhead at the strip's sheet-side end. That end becomes a plain clean join near the sheet. Add one modest RIGHT-POINTING arrowhead on the outgoing strip near the fan pivot, clearly indicating travel from the small trial toward the large fan. Do not place an arrow pointing back from fan to sheet.
+Separate the loop arrow and outgoing strip arrow so their paths can be read independently. Adjust only the short endpoint areas necessary for these corrections; do not redesign or move the main shapes. Keep blue contours and flat colored planes. No added labels, text, characters, cubes or scenery. Return the same 1536×1024 transparent PNG.

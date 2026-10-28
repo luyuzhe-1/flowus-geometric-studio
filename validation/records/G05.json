@@ -1,0 +1,62 @@
+{
+  "case_id": "G05",
+  "title": "留白云形容器",
+  "skill_version": "0.1.5",
+  "rule_revision": "r2",
+  "phase": "original_reusable_material_fresh",
+  "status": "reviewed_material_candidate",
+  "prompt_file": "validation/prompts/G05.txt",
+  "tool": "image_gen.imagegen",
+  "references_reviewed": [
+    "R03"
+  ],
+  "explicit_image_inputs": [],
+  "reference_delivery": "文字首生；所列第三方参考只由助手观看，未显式传入。",
+  "requested_size": [
+    1024,
+    1024
+  ],
+  "requested_transparency": true,
+  "semantic_affordances": "容纳、共享空间或开放边界；内区透明，需按内容放主体。",
+  "origin": "本项目原创生成素材；非第三方裁切或原站原图。",
+  "self_evaluation": {
+    "status": "trial_usable_with_reservations",
+    "silhouette": "recognizable",
+    "no_faces_or_limbs": true,
+    "flat_fill": "partial",
+    "evidence": "云形容器内区真实透明；易带出云服务联想，不应在所有抽象主题使用。",
+    "user_aesthetic": "pending"
+  },
+  "user_evaluation": "pending",
+  "frozen_rule_record": "validation/generation-environment.json",
+  "project_output": "assets/geometry-kit/G05.png",
+  "file_check": {
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "has_alpha": true,
+    "fully_transparent_fraction": 0.8515735292995429,
+    "partly_transparent_fraction": 0.14595463575569342,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "e1db615e8305959751cbbfcb2761510ce8104596545398b2cc7f94addb5a66ce",
+    "requested_exact_size_met": false,
+    "requested_ratio_met": true
+  },
+  "actual_tool_arguments": {
+    "prompt": "Use case: stylized-concept\nAsset: one original reusable non-character geometric illustration motif, not a sprite sheet.\nDrawing construction: clean two-dimensional digital line-and-fill. Use a continuous medium electric-blue contour (#1844F5), a small bright turquoise / sky-blue / pink palette and white only where specified. Every bounded plane has one even solid color; keep volume implicit in the overlap or fold edges. Keep detail sparse and the silhouette distinct. These are uninhabited shapes and lines, with no human features.\nMotif: One hollow cloud-shaped enclosure built from three unequal rounded lobes and a gently curved lower edge. Use a turquoise boundary band enclosed by a continuous electric-blue contour; leave the broad inner area genuinely transparent and empty. Keep it asymmetric and diagrammatic. This is a reusable holding space, without a server, device, face or small symbols.\nDelivery: a single centered isolated motif, requested 1024×1024 PNG with genuinely transparent alpha around it, filling about the middle two-thirds of the canvas while preserving clean outer padding. Draw no label, text, border, contact sheet, scene, platform, shadow, surface gradient or glow. This one motif will later be combined with other independently saved motifs.",
+    "transparent_background": true
+  },
+  "prompt_sha256": "9cbf511ac88b9b9690444c1a22f62f99c6b924f6e7e052ff1fdcff80c329036c",
+  "tool_controls_not_exposed": [
+    "model",
+    "seed",
+    "quality",
+    "dedicated_size_parameter"
+  ],
+  "original_output_saved_locally": true,
+  "record_normalization": "原始工具提示词不变；本机绝对输入路径仅替换为仓库内对应文件路径，避免发布机器路径。"
+}

@@ -1,0 +1,132 @@
+{
+  "version": "kit-trial-0.1",
+  "materials": [
+    {
+      "id": "G01",
+      "title": "开放回环",
+      "file": "assets/geometry-kit/G01.png",
+      "sha256": "aac329513592e7d13cfca0700a7374a1fc7ab1da597d7bcf952f18fb9c946a56",
+      "origin": "本项目原创生成候选素材，非第三方原图或裁切",
+      "generation_record": "validation/records/G01.json",
+      "source_reference_ids": [
+        "R12",
+        "R03"
+      ],
+      "source_role": "造型语法依据，由助手查看；首生未显式传图。",
+      "semantic_affordances": "回返、反馈、重复检视；是否传达取决于组合落点。",
+      "quality_status": "trial_usable_with_reservations",
+      "review_note": "回环方向清楚，圈线比其他物件轮廓更重，需按组合比例协调；粉色小片不单独证明反馈含义。",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "alpha": true,
+      "user_evaluation": "pending"
+    },
+    {
+      "id": "G02",
+      "title": "折页信息片",
+      "file": "assets/geometry-kit/G02.png",
+      "sha256": "0212374b6d788fa4574960b9b9923becbafe5ea22b5dc41b26d15d9bfe43a2a8",
+      "origin": "本项目原创生成候选素材，非第三方原图或裁切",
+      "generation_record": "validation/records/G02.json",
+      "source_reference_ids": [
+        "R05"
+      ],
+      "source_role": "造型语法依据，由助手查看；首生未显式传图。",
+      "semantic_affordances": "信息片、试验对象、待处理内容；不固定为文件图标。",
+      "quality_status": "trial_usable_with_reservations",
+      "review_note": "折页轮廓与三角反面可辨，中心留空利于复用；有轻微面内色值变化。",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "alpha": true,
+      "user_evaluation": "pending"
+    },
+    {
+      "id": "G03",
+      "title": "展开扇片",
+      "file": "assets/geometry-kit/G03.png",
+      "sha256": "192041a7114ca8a74773576afb01cd045120c538b580758f3713a57d8b422737",
+      "origin": "本项目原创生成候选素材，非第三方原图或裁切",
+      "generation_record": "validation/records/G03.json",
+      "source_reference_ids": [
+        "R12",
+        "R10"
+      ],
+      "source_role": "造型语法依据，由助手查看；首生未显式传图。",
+      "semantic_affordances": "展开、范围扩大、选择；新扇片构造为原创扩充，非官网原有图。",
+      "quality_status": "trial_usable_with_reservations",
+      "review_note": "三片共轴展开、遮挡清楚；容易让人联想到扇子，语义取决于组合。",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "alpha": true,
+      "user_evaluation": "pending"
+    },
+    {
+      "id": "G04",
+      "title": "回折连接带",
+      "file": "assets/geometry-kit/G04.png",
+      "sha256": "14939fe9138315d812156ed8f9897fc5aa5181af4a083f8e0454a8f751f92e6b",
+      "origin": "本项目原创生成候选素材，非第三方原图或裁切",
+      "generation_record": "validation/records/G04.json",
+      "source_reference_ids": [
+        "R03",
+        "R12"
+      ],
+      "source_role": "造型语法依据，由助手查看；首生未显式传图。",
+      "semantic_affordances": "传递、连接、转向；需要组合时另行确定端点。",
+      "quality_status": "trial_usable_with_reservations",
+      "review_note": "S形连接带可辨，两端可作为连接位置；仍有轻微色值变化，端点需在成图检查。",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "alpha": true,
+      "user_evaluation": "pending"
+    },
+    {
+      "id": "G05",
+      "title": "留白云形容器",
+      "file": "assets/geometry-kit/G05.png",
+      "sha256": "e1db615e8305959751cbbfcb2761510ce8104596545398b2cc7f94addb5a66ce",
+      "origin": "本项目原创生成候选素材，非第三方原图或裁切",
+      "generation_record": "validation/records/G05.json",
+      "source_reference_ids": [
+        "R03"
+      ],
+      "source_role": "造型语法依据，由助手查看；首生未显式传图。",
+      "semantic_affordances": "容纳、共享空间或开放边界；内区透明，需按内容放主体。",
+      "quality_status": "trial_usable_with_reservations",
+      "review_note": "云形容器内区真实透明；易带出云服务联想，不应在所有抽象主题使用。",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "alpha": true,
+      "user_evaluation": "pending"
+    },
+    {
+      "id": "G06",
+      "title": "异形接点",
+      "file": "assets/geometry-kit/G06.png",
+      "sha256": "350e5e84a684393ea017250abf19561ff98b3857621600c98e46f1259ff36b70",
+      "origin": "本项目原创生成候选素材，非第三方原图或裁切",
+      "generation_record": "validation/records/G06.json",
+      "source_reference_ids": [
+        "R12",
+        "R04"
+      ],
+      "source_role": "造型语法依据，由助手查看；首生未显式传图。",
+      "semantic_affordances": "不同事物的联系、对话或匹配；两个形体不可自动视为人物。",
+      "quality_status": "trial_usable_with_reservations",
+      "review_note": "异形接点和曲线连接清楚；不同部件线重存在差异，只在需要联系语义时选用。",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "alpha": true,
+      "user_evaluation": "pending"
+    }
+  ],
+  "native_dimensions": "6张原生1254×1254，工具未兑现提示词1024×1024；不重采样冒充。",
+  "source_boundary": "R03/R05/R12/R04/R10语法启发的新组合，不声称这些新造型逐一存在于官网。",
+  "use_boundary": "先读内容再选形，每次只选需要的少量素材；未验证所有素材和组合稳定性。"
+}

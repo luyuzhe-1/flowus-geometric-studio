@@ -1,0 +1,71 @@
+{
+  "evaluated_at": "2026-10-28T21:05:22.348507+08:00",
+  "locked_before_user_feedback": true,
+  "rubric_source": "validation/case-briefs.json, frozen before generation",
+  "judgments": {
+    "V14": {
+      "semantic_fidelity": {
+        "verdict": "mostly_matches",
+        "evidence": "两主体同处一把伞下，雨线位于外侧，长方形角色握伞并向同伴伸臂，共享遮蔽可以读出。",
+        "limit": "静态图更直接表达同伴共伞；先前犹豫、邻居停下邀请与下班身份没有独立编码，这些省略事前已声明。"
+      },
+      "style": {
+        "verdict": "partial",
+        "evidence": "几何本体承载五官，线状四肢与简短墨迹、黄白伞和亮色角色保持A语汇，环境已压缩为雨线与水弧。",
+        "limit": "角色面内有轻微明暗，轮廓／脸／四肢的线重接近，末端有实心圆点；五官实际用蓝墨而非提示词的黑墨。"
+      },
+      "action_contact": {
+        "verdict": "partial",
+        "evidence": "伞杆与握点接触，伞面横向覆盖两角色；脚端与靠近步态可见。",
+        "limit": "握伞处与邀请手臂聚在一起，第二条手臂的根部容易与握点合并，伸手动作的拓扑不够清楚。"
+      },
+      "composition": {
+        "verdict": "pass_with_reservations",
+        "evidence": "一伞两角色为清楚的大形，边界完整，留白足，雨线服务主题。",
+        "limit": "主体仍偏通用友好图标，人物之间的互望与邀请情绪不强。"
+      },
+      "semantic_check_results": [
+        "同伞覆盖：符合",
+        "邀请／靠近：部分符合，伸臂可见但根部不清",
+        "雨天识别与主次：符合"
+      ],
+      "overall": "partial",
+      "one_sentence": "内容大体成立，分享关系可读；动作根部和线重／平涂仍需改进。",
+      "what_to_improve_next": "若用户同意再改，优先使邀请臂有独立可读的起点与朝向；这轮不在评判前编辑。"
+    },
+    "V15": {
+      "semantic_fidelity": {
+        "verdict": "partial",
+        "evidence": "单块→小组合→较大组合和前进箭头表达逐步扩大；首个模块附近的回环与粉色小片提供早期回返线索。",
+        "limit": "不配文字时也可能被读成一般增长或模块装配，不能单凭图识别新功能试用／用户反馈；回环与首块之间有空隙，反馈接入不够明确。"
+      },
+      "style": {
+        "verdict": "pass_with_reservations",
+        "evidence": "无人物，三组同向投影体块、连续蓝边、青绿／天蓝／白面与单一粉色强调，明显沿R02/R10的压缩语法。",
+        "limit": "部分面仍有轻微明暗，没有完全达到每面均匀实色。"
+      },
+      "structure_and_routes": {
+        "verdict": "partial",
+        "evidence": "三阶段尺度增长、两条前进箭头和局部回环可辨，体块整体投影相容。",
+        "limit": "回环绕行而未清楚落到试验模块；末端方块后排承托并非结构工程图，只可视为图解。"
+      },
+      "composition": {
+        "verdict": "partial",
+        "evidence": "线性阅读方向清楚，三阶段彼此隔开，没有人物或无关场景。",
+        "limit": "画面较像简化流程图，横向内容在3:2画布内上下留白偏多；缩成小卡时主体可能显小，尚未做真实页面测试。"
+      },
+      "semantic_check_results": [
+        "先小后大：符合",
+        "早期回返调整：部分符合，回环含义和落点偏弱",
+        "无人物机制表达：符合，但不能替代试用的具体语义"
+      ],
+      "overall": "partial",
+      "one_sentence": "先小后大的机制可读，反馈改进的意思较弱；可作段落配图，独立传意不足。",
+      "what_to_improve_next": "若再改，优先明确反馈回到早期模块的落点，并减少纵向空白；不立即重生或编辑。"
+    }
+  },
+  "not_a_success_rate": "两例自拟样本不能推断跨主题稳定性；自评与用户评价独立。",
+  "generation_count": 2,
+  "edits": 0,
+  "retries": 0
+}

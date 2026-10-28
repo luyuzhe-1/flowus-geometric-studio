@@ -1,0 +1,90 @@
+{
+  "case_id": "E06",
+  "title": "先试一小步·原创素材组合版",
+  "skill_version": "0.1.5",
+  "rule_revision": "r2",
+  "phase": "existing_asset_compositing",
+  "status": "reviewed_semantic_route_failure",
+  "prompt_file": "validation/prompts/E06.txt",
+  "original_prose": "团队准备推出一项新功能，没有一次性向所有人开放。他们先请少量用户试用，根据收到的建议做调整，再逐步扩大范围。比起一开始就铺得很大，他们更在意每一步都能及时改进。",
+  "tool": "image_gen.imagegen",
+  "explicit_image_inputs": [
+    "assets/geometry-kit/G02.png",
+    "assets/geometry-kit/G01.png",
+    "assets/geometry-kit/G03.png",
+    "assets/geometry-kit/G04.png"
+  ],
+  "input_material_ids": [
+    "G02",
+    "G01",
+    "G03",
+    "G04"
+  ],
+  "input_sha256": {
+    "G02": "0212374b6d788fa4574960b9b9923becbafe5ea22b5dc41b26d15d9bfe43a2a8",
+    "G01": "aac329513592e7d13cfca0700a7374a1fc7ab1da597d7bcf952f18fb9c946a56",
+    "G03": "192041a7114ca8a74773576afb01cd045120c538b580758f3713a57d8b422737",
+    "G04": "14939fe9138315d812156ed8f9897fc5aa5181af4a083f8e0454a8f751f92e6b"
+  },
+  "input_roles": [
+    "小试验对象",
+    "返回调整",
+    "扩大范围",
+    "阶段连接"
+  ],
+  "references_reviewed": [
+    "R03",
+    "R05",
+    "R12"
+  ],
+  "reference_delivery": "实际传入4件本项目原创素材，不传第三方网站图；未将V15方块首图传入。",
+  "requested_size": [
+    1536,
+    1024
+  ],
+  "requested_transparency": true,
+  "not_pixel_exact_paste": "生成式素材组合，可重绘；须另查形体身份保持，非原像素直接拼接。",
+  "self_evaluation": {
+    "evaluated_at": "2026-10-28T21:25:54.790780+08:00",
+    "semantic": "fail_for_direction",
+    "shape_vocabulary": "improved",
+    "style": "partial",
+    "material_identity": "recognizable_with_redrawing",
+    "composition": "improved_vertical_use",
+    "evidence": "折页、回环、扇片、连接带都可辨，较旧B减少方块重复；但G01箭头被移到连接带左端，连接带指向试验片，外扩关系反向，回环本身失去箭头。",
+    "improvement": "非人物形体更丰富，主体使用画布高度较多，实际4素材输入得到可辨识组合。",
+    "regression": "语义路线较方块旧B退步，反馈与外扩的箭头归属混淆。",
+    "unresolved": "平涂仍有轻微明暗，素材经重绘并非像素原样复用；不能整体通过。",
+    "overall": "not_accepted_due_to_semantic_direction"
+  },
+  "user_evaluation": "pending",
+  "frozen_rule_record": "validation/generation-environment.json",
+  "project_output": "validation/images/edits/E06.png",
+  "file_check": {
+    "format": "PNG",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "has_alpha": true,
+    "fully_transparent_fraction": 0.7301158905029297,
+    "partly_transparent_fraction": 0.2698841094970703,
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "sha256": "79a26e8718f784550be9e0388c5d17bb79ebc7353ae24e33c14f67f095ccf67c",
+    "requested_exact_size_met": true
+  },
+  "actual_tool_arguments": {
+    "prompt": "Use case: compositing\nAsset: a new composition for the same paragraph, assembled by adapting four existing original geometric illustration motifs.\nInput 1 G02 is the folded sheet: use it as the small trial object. Input 2 G01 is the return loop with a pink tile: use it around the trial. Input 3 G03 is the three-leaf expanding fan: use it to suggest wider reach. Input 4 G04 is the turquoise bending connector strip: use it as a slim connecting path. Reuse these identifiable silhouettes and blue line / bright plane language. You may resize, reposition and gently adapt their curves for a coherent layout; preserve their material identity rather than introducing cubes, characters or unrelated objects.\nSource paragraph: 团队准备推出一项新功能，没有一次性向所有人开放。他们先请少量用户试用，根据收到的建议做调整，再逐步扩大范围。比起一开始就铺得很大，他们更在意每一步都能及时改进。\nComposition: create one asymmetrical, airy arrangement rather than a row of repeated icons. Place a relatively small folded sheet at the left inside a loose return loop. Make the loop's returning arrow point visibly into an edge of the sheet, and keep the small pink tile on that return route: feedback comes back to the trial object before expansion. Carry one slim bending turquoise connector out through the loop's open gap toward the pivot of a much broader fan of unfolding leaves at the right. The connected leaves open into increasing visible extent, so the image reads as a small revisable trial becoming wider release. The connector must visibly join its intended endpoints, while the return arrow remains distinct from the outgoing direction. Keep both the small early stage and the later expansion readable.\nUnify the electric-blue contour weight at the final scale. Use flat uniform turquoise, sky-blue, pink and white planes, with only essential fold and overlap boundaries. Keep the white-space center and use the curves to connect ideas, not decorate the perimeter. No faces, limbs, cubes, server equipment, UI windows, labels or text. Do not turn the arrangement into a realistic fan product or a full environment.\nDelivery: one landscape 3:2 transparent PNG requested 1536×1024, complete components inside clear outer margins, a balanced subject scale using the canvas height. Preserve real alpha; no background glow, surface gradients, shadows or floor.",
+    "referenced_image_paths": [
+      "assets/geometry-kit/G02.png",
+      "assets/geometry-kit/G01.png",
+      "assets/geometry-kit/G03.png",
+      "assets/geometry-kit/G04.png"
+    ],
+    "transparent_background": true
+  },
+  "original_output_saved_locally": true,
+  "record_normalization": "原始工具提示词不变；本机绝对输入路径仅替换为仓库内对应文件路径，避免发布机器路径。"
+}

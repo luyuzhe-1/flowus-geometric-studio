@@ -1,0 +1,17 @@
+{
+  "status": "stage_accepted_publish_authorized",
+  "A": {
+    "case_id": "V14",
+    "user_evaluation": "accepted_for_direct_use",
+    "user_verbatim": "适合，可以直接使用"
+  },
+  "B_first": {
+    "case_id": "V15",
+    "user_evaluation": "形体过于单一，用户要求先扩充非人物几何／线条小素材库，再组合。"
+  },
+  "B_current": {
+    "case_id": "E07",
+    "user_evaluation": "当前方向可以，先以本版截止并开源；不是严格风格与语义全部通过的声明。"
+  },
+  "assistant_evaluation": "保留原首生自评和组合后自评；用户评价不覆盖自评。"
+}

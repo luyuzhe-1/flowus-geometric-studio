@@ -1,0 +1,29 @@
+{
+  "E06": {
+    "evaluated_at": "2026-10-28T21:25:54.790780+08:00",
+    "semantic": "fail_for_direction",
+    "shape_vocabulary": "improved",
+    "style": "partial",
+    "material_identity": "recognizable_with_redrawing",
+    "composition": "improved_vertical_use",
+    "evidence": "折页、回环、扇片、连接带都可辨，较旧B减少方块重复；但G01箭头被移到连接带左端，连接带指向试验片，外扩关系反向，回环本身失去箭头。",
+    "improvement": "非人物形体更丰富，主体使用画布高度较多，实际4素材输入得到可辨识组合。",
+    "regression": "语义路线较方块旧B退步，反馈与外扩的箭头归属混淆。",
+    "unresolved": "平涂仍有轻微明暗，素材经重绘并非像素原样复用；不能整体通过。",
+    "overall": "not_accepted_due_to_semantic_direction"
+  },
+  "E07": {
+    "overall": "partial_improved_after_correction",
+    "semantic": "mostly_matches_with_reservations",
+    "style": "partial",
+    "material_identity": "recognizable_adapted",
+    "editing_invariants": "visually_mostly_preserved_not_pixel_exact",
+    "improvement": "外扩连接已从小试验片指向大扇片；回环独立恢复箭头，4类素材身份可辨，较旧B的方块重复更丰富。",
+    "regression": "比旧B增加了图形含义解释负担；“功能试用”仍依赖段落，不能仅凭形体种类推定更合适。",
+    "unresolved": "回环围绕试验片而未直接进入片面边缘，具体收反馈含义仍偏抽象；色面轻微明暗和线重差异仍在。",
+    "one_sentence": "形体单一的问题得到缓解，外扩方向修正成功；反馈语义仍是抽象隐喻，整体有保留。",
+    "boundary": "这是一次素材组合及一次路线编辑的结果，不证明文字首生或跨主题素材组合稳定。"
+  },
+  "frozen_before_new_user_feedback": true,
+  "evaluated_at": "2026-10-28T21:28:40.181393+08:00"
+}

@@ -1,0 +1,101 @@
+{
+  "case_id": "V14",
+  "label": "A",
+  "title": "一起走一段",
+  "skill_version": "0.1.5",
+  "phase": "assistant_proposed_natural_language_first",
+  "case_source": "assistant_authored_natural_prose_not_user_holdout",
+  "original_prose": "下班时，雨突然大了起来。一个没带伞的人站在门口犹豫，已经撑开伞的邻居停下脚步，招呼他一起走。一把伞不大，两个人靠近一点，就都能少淋一场雨。",
+  "central_meaning": "主动分享一把伞，让同行的人得到照顾。",
+  "predeclared_semantic_checks": [
+    "两位主体分享同一把伞，伞面能够遮住双方。",
+    "有靠近、邀请或共同前行的关系，能读出照顾而非单人撑伞。",
+    "雨天可识别，但环境不盖过分享这一瞬间。"
+  ],
+  "visual_translation": "截取邻居撑伞并邀请另一位靠近的关键瞬间；两几何角色，伞覆盖双方，少量雨线。",
+  "not_visually_encoded": [
+    "下班的具体时间和身份",
+    "门口与先前犹豫的时间过程"
+  ],
+  "style_branch": "A 几何拟人",
+  "references_reviewed": [
+    "R04",
+    "R05"
+  ],
+  "explicit_image_inputs": [],
+  "reference_delivery": "全新图仅文字和透明参数；助手看过原图副本，未显式传入生成器。",
+  "prompt_file": "validation/prompts/V14.txt",
+  "tool": "image_gen.imagegen",
+  "requested_size": [
+    1536,
+    1024
+  ],
+  "requested_transparency": true,
+  "agent_delivery_choices": "3:2透明PNG、无文字、角色或抽象结构为按内容选择，非原文要求。",
+  "status": "self_reviewed_awaiting_user_judgment",
+  "self_evaluation": {
+    "semantic_fidelity": {
+      "verdict": "mostly_matches",
+      "evidence": "两主体同处一把伞下，雨线位于外侧，长方形角色握伞并向同伴伸臂，共享遮蔽可以读出。",
+      "limit": "静态图更直接表达同伴共伞；先前犹豫、邻居停下邀请与下班身份没有独立编码，这些省略事前已声明。"
+    },
+    "style": {
+      "verdict": "partial",
+      "evidence": "几何本体承载五官，线状四肢与简短墨迹、黄白伞和亮色角色保持A语汇，环境已压缩为雨线与水弧。",
+      "limit": "角色面内有轻微明暗，轮廓／脸／四肢的线重接近，末端有实心圆点；五官实际用蓝墨而非提示词的黑墨。"
+    },
+    "action_contact": {
+      "verdict": "partial",
+      "evidence": "伞杆与握点接触，伞面横向覆盖两角色；脚端与靠近步态可见。",
+      "limit": "握伞处与邀请手臂聚在一起，第二条手臂的根部容易与握点合并，伸手动作的拓扑不够清楚。"
+    },
+    "composition": {
+      "verdict": "pass_with_reservations",
+      "evidence": "一伞两角色为清楚的大形，边界完整，留白足，雨线服务主题。",
+      "limit": "主体仍偏通用友好图标，人物之间的互望与邀请情绪不强。"
+    },
+    "semantic_check_results": [
+      "同伞覆盖：符合",
+      "邀请／靠近：部分符合，伸臂可见但根部不清",
+      "雨天识别与主次：符合"
+    ],
+    "overall": "partial",
+    "one_sentence": "内容大体成立，分享关系可读；动作根部和线重／平涂仍需改进。",
+    "what_to_improve_next": "若用户同意再改，优先使邀请臂有独立可读的起点与朝向；这轮不在评判前编辑。"
+  },
+  "user_evaluation": "accepted_for_direct_use",
+  "frozen_rule_record": "validation/generation-environment.json",
+  "project_output": "validation/images/first/V14.png",
+  "file_check": {
+    "format": "PNG",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "has_alpha": true,
+    "fully_transparent_fraction": 0.7589823404947916,
+    "partly_transparent_fraction": 0.24101765950520834,
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "sha256": "94e6a2dc7372b1b121f7424a141199125afe16b07d49ebc314e8e77b03c26b8c",
+    "requested_exact_size_met": true,
+    "requested_ratio_met": true
+  },
+  "self_evaluated_at": "2026-10-28T21:05:22.348507+08:00",
+  "self_evaluation_frozen_before_user_judgment": true,
+  "actual_tool_arguments": {
+    "prompt": "Use case: illustration-story\nAsset: one editorial illustration accompanying the paragraph below.\nSource paragraph (meaning, not visual instructions): 下班时，雨突然大了起来。一个没带伞的人站在门口犹豫，已经撑开伞的邻居停下脚步，招呼他一起走。一把伞不大，两个人靠近一点，就都能少淋一场雨。\nDrawing method: a two-dimensional digital line-and-fill product illustration. Draw continuous electric-blue or black contours and uniformly fill each closed region. Express depth only with separate neighboring flat planes. Keep internal marks sparse and structural, reusing a small bright palette with white and blue outlines. The image should have the clean shape economy of a digital outlined illustration, without face highlights, soft shading or realistic texture.\nVisual interpretation: show the moment of freely sharing shelter. Two geometric personifications are close together under one open umbrella. A taller turquoise rounded-rectangle body at the left holds the umbrella's narrow vertical shaft with one bent fine ink arm; the grip clearly touches the shaft. Its other arm opens toward the companion in a gentle invitation. A smaller pink circular body at the right leans and takes a step inward under the same canopy. Their heads are not separate parts: each geometric body itself carries two tiny black single-stroke eyes and one short curved mouth. Legs and arms are open fine ink strokes ending in short turns, not gloves or shoes.\nThe one wide yellow-and-white umbrella canopy has a clear blue outer contour and only two necessary panel seams. It visibly spans both bodies, including the right companion. Put a few short diagonal blue rain strokes outside the canopy, leaving the shared sheltered area calm. One or two open puddle arcs are enough to suggest the ground. Body tilt, closeness and the open inviting arm convey care. Select this one moment instead of depicting a sequence, a full street or office scene.\nDelivery: one wide 3:2 transparent PNG requested 1536×1024, complete umbrella and both figures inside generous outer clear margins. No headline, captions or readable text. Keep environment marks secondary and omit extra figures, decorative smiles on the umbrella, floor shadows and scenic vegetation.",
+    "transparent_background": true
+  },
+  "prompt_sha256": "e08cc0c85bae643363b2a2d8392b82e93105b593569b2d45f98ac5d3fcb8a697",
+  "tool_controls_not_exposed": [
+    "model",
+    "seed",
+    "quality",
+    "dedicated_size_parameter"
+  ],
+  "rule_revision": "r1",
+  "original_output_saved_locally": true,
+  "record_normalization": "原始工具提示词不变；本机绝对输入路径仅替换为仓库内对应文件路径，避免发布机器路径。"
+}

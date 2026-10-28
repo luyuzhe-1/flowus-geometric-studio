@@ -1,0 +1,5 @@
+{
+  "file": "validation/assistant-judgment.json",
+  "sha256": "880e9148a32205b02ec9765fd90bfa448721efb038aae0cd226488944b9860c6",
+  "note": "助手自评在征询用户前保存；用户反馈不回写该文件。"
+}

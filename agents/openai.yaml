@@ -1,0 +1,4 @@
+interface:
+  display_name: "FlowUs 几何插画工作室"
+  short_description: "亮色几何角色、物件、内容配图与原创 Logo，按用途控制轮廓和细节"
+  default_prompt: "使用 $flowus-geometric-studio，为我的新主题制作一张符合用途的几何插画。"

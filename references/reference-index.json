@@ -1,0 +1,186 @@
+{
+  "curation_revision": 21,
+  "distribution": "source_links_only; third-party image bytes are not bundled or licensed by this repository",
+  "curated_references": [
+    {
+      "id": "R02",
+      "title": "组合与转化",
+      "branch": "A 几何线面",
+      "source_pages": [
+        "https://flowus.cn/product",
+        "https://flowus.cn/product/page",
+        "https://flowus.cn/usergrowth"
+      ],
+      "source_url": "https://cdn2.flowus.cn/assets/_next/static/media/img_title_page.1cff9423.svg",
+      "source_sha256": "e6b075914196c5c4eaf09a5160a955febd7078855131f921e738c25b87e2afb4",
+      "source_format": "svg",
+      "source_width": 380,
+      "source_height": 110,
+      "source_transparency": "透明画布，内部部分白色/色块为已绘制内容",
+      "source_observation": "蓝色等粗轮廓连接青绿、天蓝色立方体，以箭头表达合并关系。"
+    },
+    {
+      "id": "R04",
+      "title": "圆形与三角角色",
+      "branch": "A 几何拟人",
+      "source_pages": [
+        "https://flowus.cn/product",
+        "https://flowus.cn/product/bitable",
+        "https://flowus.cn/usergrowth"
+      ],
+      "source_url": "https://cdn2.flowus.cn/assets/_next/static/media/img_title_bitable.a251cba5.svg",
+      "source_sha256": "efda4f2b4cab56e30d80dab134b157a28a61e0c2806b7060395e51df1675b740",
+      "source_format": "svg",
+      "source_width": 324,
+      "source_height": 110,
+      "source_transparency": "透明画布，内部部分白色/色块为已绘制内容",
+      "source_observation": "角色保留几何本体，五官只用短竖线与笑弧；蓝色双回环形成移动方向。"
+    },
+    {
+      "id": "R05",
+      "title": "圆柱、盒子与飞行物",
+      "branch": "A 几何拟人",
+      "source_pages": [
+        "https://flowus.cn/product",
+        "https://flowus.cn/product/folder",
+        "https://flowus.cn/usergrowth"
+      ],
+      "source_url": "https://cdn2.flowus.cn/assets/_next/static/media/img_title_folder.11c47a0a.svg",
+      "source_sha256": "e660bb4da956ff9e766c3fb4a9e89ba5f010677dbbeb4e2014d8ab8803042335",
+      "source_format": "svg",
+      "source_width": 380,
+      "source_height": 150,
+      "source_transparency": "透明画布，内部部分白色/色块为已绘制内容",
+      "source_observation": "圆柱躯干、纸张式三角体与棱锥组合，短肢体和倾斜姿态形成动作。"
+    },
+    {
+      "id": "R09",
+      "title": "积木协作场景",
+      "branch": "A 几何拟人",
+      "source_pages": [
+        "https://flowus.cn/product",
+        "https://flowus.cn/usergrowth"
+      ],
+      "source_url": "https://cdn2.flowus.cn/assets/_next/static/media/quick_use_embed.17dd4890.svg",
+      "source_sha256": "ec6a9133f8c40c8a2756f3090ccf190bb7c61f3b42fd0b116e655148a39d1463",
+      "source_format": "svg",
+      "source_width": 603,
+      "source_height": 744,
+      "source_transparency": "透明画布，内部部分白色/色块为已绘制内容",
+      "source_observation": "多个几何角色在积木结构上跳跃、站立、悬空；层叠、接触与空隙组织动作。"
+    },
+    {
+      "id": "R10",
+      "title": "半透明积木组合",
+      "branch": "A 几何线面",
+      "source_pages": [
+        "https://flowus.cn/product",
+        "https://flowus.cn/template",
+        "https://flowus.cn/subscribecenter",
+        "https://flowus.cn/usergrowth"
+      ],
+      "source_url": "https://cdn2.flowus.cn/assets/_next/static/media/img_title_template.b2ac9118.svg",
+      "source_sha256": "817ba601da438f912d121a5ea8323d732ca7f1586c7881e9b71d08d395afc5be",
+      "source_format": "svg",
+      "source_width": 290,
+      "source_height": 170,
+      "source_transparency": "透明画布，内部部分白色/色块为已绘制内容",
+      "source_observation": "相同投影方向的立方体并置，蓝边与粉绿蓝实色面；部分面有透明叠合。"
+    },
+    {
+      "id": "R12",
+      "title": "角色与自由曲线",
+      "branch": "A 几何拟人",
+      "source_pages": [
+        "https://flowus.cn/product/page",
+        "https://flowus.cn/product/cooperation",
+        "https://flowus.cn/product/bitable",
+        "https://flowus.cn/product/folder"
+      ],
+      "source_url": "https://cdn2.flowus.cn/assets/_next/static/media/img_title_footer.7b8aed8e.svg",
+      "source_sha256": "5780ba660a8c7a75177965971cf0cf62edef7941686d12b4eaa56a7accc27f7f",
+      "source_format": "svg",
+      "source_width": 418,
+      "source_height": 110,
+      "source_transparency": "透明画布，内部部分白色/色块为已绘制内容",
+      "source_observation": "黄色圆形角色与蓝黄回环曲线、无描边粉三角并置，作为补充边界样本。"
+    },
+    {
+      "id": "R40",
+      "title": "企业：安全与私有化",
+      "branch": "E 企业几何应用",
+      "source_pages": [
+        "https://flowus.cn/firm"
+      ],
+      "source_url": "https://cdn2.flowus.cn/assets/_next/static/media/img3.1cd413e4.webp",
+      "source_sha256": "d6f1bc448c3ccab15ddd1e692fca5921fdf4d27f62cd9bfb661c7f2d02b1cf29",
+      "source_format": "webp",
+      "source_width": 3008,
+      "source_height": 2000,
+      "source_transparency": "少量透明边角；文件内包含已绘制背景",
+      "source_observation": "盾牌、锁与服务器组合；蓝绿粉色、黑轮廓、渐变轨迹，底部也使用点阵地面。"
+    },
+    {
+      "id": "R41",
+      "title": "AI 写作：渐变回环",
+      "branch": "C 渐变科技",
+      "source_pages": [
+        "https://flowus.cn/ai"
+      ],
+      "source_url": "https://cdn2.flowus.cn/assets/_next/static/media/1.5e4d8d59.svg",
+      "source_sha256": "b09c45498fc8bb99c930a6c8cbb43e7624aaefc82b01c786c3e095cd8c458d42",
+      "source_format": "svg",
+      "source_width": 387,
+      "source_height": 110,
+      "source_transparency": "透明画布，内部白色或色面仍可能是已绘制内容",
+      "source_observation": "青绿至蓝紫的单条回环线配星芒，透明画布；构成 AI 页的独立装饰语汇。"
+    },
+    {
+      "id": "R43",
+      "title": "AI 翻译：环绕立方体",
+      "branch": "C 渐变科技",
+      "source_pages": [
+        "https://flowus.cn/ai"
+      ],
+      "source_url": "https://cdn2.flowus.cn/assets/_next/static/media/3.205de7d0.svg",
+      "source_sha256": "13e64000957659a65022608e0133d1e63bf73af55237316b1b97771f2b8c9fb2",
+      "source_format": "svg",
+      "source_width": 387,
+      "source_height": 110,
+      "source_transparency": "透明画布，内部白色或色面仍可能是已绘制内容",
+      "source_observation": "线框立方体、渐变轨迹与星芒；与产品页 R06 的 AI 语汇互相印证。"
+    },
+    {
+      "id": "R39",
+      "title": "企业：工作流连接",
+      "branch": "E 企业几何应用",
+      "source_pages": [
+        "https://flowus.cn/firm"
+      ],
+      "source_url": "https://cdn2.flowus.cn/assets/_next/static/media/img2.8f39f353.webp",
+      "source_sha256": "e8a6b7eb9e0e82e0a06ef9bc822ee06740da576620b5851c34ab0fc3d108cd3b",
+      "source_format": "webp",
+      "source_width": 3008,
+      "source_height": 2000,
+      "source_transparency": "透明画布，内部白色或色面仍可能是已绘制内容",
+      "source_observation": "多个简化界面与设备通过弯曲线连接，黄色圆脸作为次要角色，信息结构更密。"
+    },
+    {
+      "id": "R03",
+      "title": "云与连接",
+      "branch": "A 几何线面",
+      "source_pages": [
+        "https://flowus.cn/product",
+        "https://flowus.cn/product/cooperation",
+        "https://flowus.cn/usergrowth"
+      ],
+      "source_url": "https://cdn2.flowus.cn/assets/_next/static/media/img_title_cooperation.8ea18bf0.svg",
+      "source_sha256": "ba62a3f2bc3c2a922db9a9915fad4a3527cbd4083692e5dd5007176782e7b18c",
+      "source_format": "svg",
+      "source_width": 380,
+      "source_height": 160,
+      "source_transparency": "透明画布，内部部分白色/色块为已绘制内容",
+      "source_observation": "云形大轮廓、直角服务器与弯曲连接线并置；含局部渐变连接线。"
+    }
+  ]
+}

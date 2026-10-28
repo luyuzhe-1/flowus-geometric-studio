@@ -1,0 +1,101 @@
+{
+  "case_id": "V15",
+  "label": "B",
+  "title": "先试一小步",
+  "skill_version": "0.1.5",
+  "phase": "assistant_proposed_natural_language_first",
+  "case_source": "assistant_authored_natural_prose_not_user_holdout",
+  "original_prose": "团队准备推出一项新功能，没有一次性向所有人开放。他们先请少量用户试用，根据收到的建议做调整，再逐步扩大范围。比起一开始就铺得很大，他们更在意每一步都能及时改进。",
+  "central_meaning": "先小范围验证并调整，再逐步扩大开放范围。",
+  "predeclared_semantic_checks": [
+    "有先小后大的阶段或范围变化，不只是重复的等大模块。",
+    "早期试验处存在回返／调整线索，而非只画单向增长。",
+    "没有以人员数量或软件界面代替机制，抽象结构仍服务先试后扩的主题。"
+  ],
+  "visual_translation": "以小试验模块、局部回返线和逐步扩大的模块组合表达机制，不画小人。",
+  "not_visually_encoded": [
+    "具体新功能内容",
+    "用户反馈的原句与团队身份"
+  ],
+  "style_branch": "A 无人物结构",
+  "references_reviewed": [
+    "R02",
+    "R10"
+  ],
+  "explicit_image_inputs": [],
+  "reference_delivery": "全新图仅文字和透明参数；助手看过原图副本，未显式传入生成器。",
+  "prompt_file": "validation/prompts/V15.txt",
+  "tool": "image_gen.imagegen",
+  "requested_size": [
+    1536,
+    1024
+  ],
+  "requested_transparency": true,
+  "agent_delivery_choices": "3:2透明PNG、无文字、角色或抽象结构为按内容选择，非原文要求。",
+  "status": "self_reviewed_awaiting_user_judgment",
+  "self_evaluation": {
+    "semantic_fidelity": {
+      "verdict": "partial",
+      "evidence": "单块→小组合→较大组合和前进箭头表达逐步扩大；首个模块附近的回环与粉色小片提供早期回返线索。",
+      "limit": "不配文字时也可能被读成一般增长或模块装配，不能单凭图识别新功能试用／用户反馈；回环与首块之间有空隙，反馈接入不够明确。"
+    },
+    "style": {
+      "verdict": "pass_with_reservations",
+      "evidence": "无人物，三组同向投影体块、连续蓝边、青绿／天蓝／白面与单一粉色强调，明显沿R02/R10的压缩语法。",
+      "limit": "部分面仍有轻微明暗，没有完全达到每面均匀实色。"
+    },
+    "structure_and_routes": {
+      "verdict": "partial",
+      "evidence": "三阶段尺度增长、两条前进箭头和局部回环可辨，体块整体投影相容。",
+      "limit": "回环绕行而未清楚落到试验模块；末端方块后排承托并非结构工程图，只可视为图解。"
+    },
+    "composition": {
+      "verdict": "partial",
+      "evidence": "线性阅读方向清楚，三阶段彼此隔开，没有人物或无关场景。",
+      "limit": "画面较像简化流程图，横向内容在3:2画布内上下留白偏多；缩成小卡时主体可能显小，尚未做真实页面测试。"
+    },
+    "semantic_check_results": [
+      "先小后大：符合",
+      "早期回返调整：部分符合，回环含义和落点偏弱",
+      "无人物机制表达：符合，但不能替代试用的具体语义"
+    ],
+    "overall": "partial",
+    "one_sentence": "先小后大的机制可读，反馈改进的意思较弱；可作段落配图，独立传意不足。",
+    "what_to_improve_next": "若再改，优先明确反馈回到早期模块的落点，并减少纵向空白；不立即重生或编辑。"
+  },
+  "user_evaluation": "material_vocabulary_expansion_requested",
+  "frozen_rule_record": "validation/generation-environment.json",
+  "project_output": "validation/images/first/V15.png",
+  "file_check": {
+    "format": "PNG",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "has_alpha": true,
+    "fully_transparent_fraction": 0.8528728485107422,
+    "partly_transparent_fraction": 0.1471271514892578,
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "sha256": "2735448ecef4762007dab2e8bdce0363439c1e6af5adff9fae6fb38d36b4d39f",
+    "requested_exact_size_met": true,
+    "requested_ratio_met": true
+  },
+  "self_evaluated_at": "2026-10-28T21:05:22.348507+08:00",
+  "self_evaluation_frozen_before_user_judgment": true,
+  "actual_tool_arguments": {
+    "prompt": "Use case: productivity-visual\nAsset: one abstract editorial illustration accompanying the paragraph below.\nSource paragraph (meaning, not visual instructions): 团队准备推出一项新功能，没有一次性向所有人开放。他们先请少量用户试用，根据收到的建议做调整，再逐步扩大范围。比起一开始就铺得很大，他们更在意每一步都能及时改进。\nDrawing method: a two-dimensional digital line-and-fill product illustration. Draw continuous electric-blue or black contours and uniformly fill each closed region. Express depth only with separate neighboring flat planes. Keep internal marks sparse and structural, reusing a small bright palette with white and blue outlines. The image should have the clean shape economy of a digital outlined illustration, without face highlights, soft shading or realistic texture.\nVisual interpretation: make a concise uninhabited geometric metaphor for a small trial, adjustment, then gradual expansion. Across an airy rising left-to-right composition, start with one compact turquoise cube, continue with a small joined pair, and end with a wider stepped formation of several compatible cubes. All cubes use the same oblique parallel edge directions, plain top and side planes, blue outlines, turquoise and sky-blue fills with white openings. Let the occupied footprint and modular extent visibly increase across the three stages. Two short blue directional connections link the stages through the clear gaps.\nAt the first small trial module only, draw one compact curved blue return arrow with a small pink rectangular tile on its return path, suggesting an adjustment coming back into the trial before wider release. Keep that loop legible and separate from the forward direction. Use the single pink accent to guide attention to the feedback step. These are abstract geometric modules, with plain surfaces and structural edges, not people, machines, server cabinets or UI windows. Avoid adding unrelated objects or environment.\nDelivery: one landscape 3:2 transparent PNG requested 1536×1024. One complete spacious composition, not a dashboard or labeled flowchart. No text, labels, faces, limbs, glow, surface gradients or cast shadows. Preserve generous clear margins around the whole sequence.",
+    "transparent_background": true
+  },
+  "prompt_sha256": "d76800be1c75d57be0e7bead8737057f020751b56397e2f81d340933fd6d0a45",
+  "tool_controls_not_exposed": [
+    "model",
+    "seed",
+    "quality",
+    "dedicated_size_parameter"
+  ],
+  "rule_revision": "r1",
+  "original_output_saved_locally": true,
+  "record_normalization": "原始工具提示词不变；本机绝对输入路径仅替换为仓库内对应文件路径，避免发布机器路径。"
+}
